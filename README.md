@@ -1,3 +1,3 @@
 # LOL-X-Assistant
-#version:0.0.1
-#Force Update:1
+version:0.0.1 <br>
+Force Update:1
