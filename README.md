@@ -12,3 +12,10 @@
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/2.gif">
 <p>And the assembly instruction might be MOV [DESTINATION],[VALUE], I thought. At first, I wanted to get the DESTINATION, which might be the address of champion ID, so I checked the assembly instruction which controls champion ID:</p>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/3.png">
+<p>Now, it clearly shows that [EDI(0x092F15F8)+48C] is the address we want, so let's check:</p>
+<img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/4.png">
+<p>So if we can get the value of EDI, we can get our address. But suddenly, I found that we only need to get the value of EAX, we can also get what we want. So let's check:</p>
+<img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/5.png">
+<p>Converting to decimal, EAX is what we want. Now, we need to hook this line(MOV [EDI+0x48C],[EAX]), making it to run our codes. However, there is only 6 bytes for us to use, because we cannot affect other codes:</p>
+<img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/6.png">
+<p>So what we are going to do is to detour:</p>
