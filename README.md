@@ -20,5 +20,9 @@
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/6.png">
 <p>So what we are going to do is to hook and detour:</p>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/7.png">
-<p>Source Code: <a herf="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/dllmain.cpp">dllmain.cpp</a></p>
-
+<p>Source Code:  <a href="https://whatis.techtarget.com/definition/base-address">dllmain.cpp</a>. If you inject the dll into the program, the assembly instructions is going to be like this:</p>
+<img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/11.png">
+<img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/8.png">
+<img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/9.png">
+<img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/10.png">
+<p>Now, whenever the championId is changed, it will be stored in the variable "championCode" automatically. You can use Clipboard, Shared memory, socket, or some other ways to send data to your program from this injected dll.</p>
