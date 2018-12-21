@@ -26,3 +26,5 @@
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/9.png">
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/10.png">
 <p>Now, whenever the championId is changed, it will be stored in the variable "championCode" automatically. You can use <a href="https://en.wikipedia.org/wiki/Clipboard_(computing)">Clipboard</a>, <a href="https://en.wikipedia.org/wiki/Shared_memory">Shared memory</a>, <a href="https://docs.microsoft.com/en-us/windows/desktop/winsock/windows-sockets-start-page-2">socket</a>, or some other ways to send data to your program from this injected dll.</p>
+<h4>However, the method above may be regard as violation of game security in the future, so thanks for Fumi's help, I switch to RIOT's in-game api to get champion ID. Although I abandoned the method, I think the process of solving a problem is quite attracting, which exactly makes the computer world thrilling and interesting. <a href="https://github.com/Fumi24/RunesReformed">Fumi's Github</a></h4>
+
