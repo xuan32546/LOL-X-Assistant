@@ -18,4 +18,5 @@
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/5.png">
 <p>Converting to decimal, EAX is what we want. Now, we need to hook this line(MOV [EDI+0x48C],[EAX]), making it to run our codes. However, there is only 6 bytes for us to use, because we cannot affect other codes:</p>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/6.png">
-<p>So what we are going to do is to detour:</p>
+<p>So what we are going to do is to hook and detour:</p>
+<img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/7.png">
