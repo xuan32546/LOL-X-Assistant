@@ -20,3 +20,5 @@
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/6.png">
 <p>So what we are going to do is to hook and detour:</p>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/7.png">
+<p>Source Code: <a herf="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/dllmain.cpp">dllmain.cpp</a></p>
+
