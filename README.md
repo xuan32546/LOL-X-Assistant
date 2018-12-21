@@ -25,4 +25,4 @@
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/8.png">
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/9.png">
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/10.png">
-<p>Now, whenever the championId is changed, it will be stored in the variable "championCode" automatically. You can use Clipboard, Shared memory, socket, or some other ways to send data to your program from this injected dll.</p>
+<p>Now, whenever the championId is changed, it will be stored in the variable "championCode" automatically. You can use <a href="https://en.wikipedia.org/wiki/Clipboard_(computing)">Clipboard</a>, <a href="https://en.wikipedia.org/wiki/Shared_memory">Shared memory</a>, <a href="https://docs.microsoft.com/en-us/windows/desktop/winsock/windows-sockets-start-page-2">socket</a>, or some other ways to send data to your program from this injected dll.</p>
