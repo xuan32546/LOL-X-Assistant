@@ -1,10 +1,17 @@
 <h1>LOL-X-Assistant Beta</h1>
-<p>Your personal assistant for League of Legends!</p>
-<p>Before game start, you don't need to search runes for your champion on the internet anymore; you don't need to click runes icon one by one anymore. The only thing you need to do is run this program, and click once. All the thing you need will be set automatically</p>
+<p>Your personal assistant for League of Legends! <a href="https://github.com/xuan32546/LOL-X-Assistant/releases/download/0.0.1-1/LOL.X.Assistant.rar">Download Me!</a></p>
+<p>Before game start, the only thing you need to do is to run this program! All the thing you need will be set in one second. You can focus on your champion choose from now on!</p>
 <p><strong>To those who are interesting in assembly language, here is <a href="https://github.com/xuan32546/LOL-X-Assistant/blob/master/RECORDER.md"> one unique way of getting champion id in league of legends</a>.</strong></p>
 
 <h2>Demo Gif</h2>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/13.gif">
+
+<h2>How To Use</h2>
+<ul>
+<li>Click <a href="https://github.com/xuan32546/LOL-X-Assistant/releases/download/0.0.1-1/LOL.X.Assistant.rar">here </a>to download zip file</li>
+<li>Extract zip to your folder</li>
+<li>Double click "LOL X Assistant.exe"</li>
+</ul>
 
 <h2>Futures</h2>
 <ul>
