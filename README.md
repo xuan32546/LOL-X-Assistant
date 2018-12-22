@@ -1,4 +1,4 @@
-<h1>LOL-X-Assistant</h1>
+<h1>LOL-X-Assistant Beta</h1>
 <p>Your personal assistant for League of Legends!</p>
 <p>Before game start, you don't need to search runes for your champion on the internet anymore; you don't need to click runes icon one by one anymore. The only thing you need to do is run this program, and click once. All the thing you need will be set automatically</p>
 <p><strong>To those who are interesting in assembly language, here is <a href="https://github.com/xuan32546/LOL-X-Assistant/blob/master/RECORDER.md"> one unique way of getting champion id in league of legends</a>.</strong></p>
