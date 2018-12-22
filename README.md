@@ -18,6 +18,9 @@
 
 <p>This program is to make your league of legends experience more comfortable, and is <a href="https://www.reddit.com/r/leagueoflegends/comments/7q6xku/runesreformed_set_your_runes_automatically/dsnjm0z/">allowed by RIOT</a>.</p>
 
+<h2>Diagrammatic Sketch (program flow chart is much more complicated)</h2>
+<img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/12.png">
+
 <h2>Thanks</h2>
 <ul>
   <li>Fumi, who told me how to set runes by in-game api. <a href="https://github.com/Fumi24/RunesReformed">Fumi's Github</a></li>
