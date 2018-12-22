@@ -1,4 +1,5 @@
-<h3>In this article, I will illustrate one interesting way of getting champion name which users are selecting, which is not widely used by others.</h3>
+<p>To read introduction about this program, please go to <a href="https://github.com/xuan32546/LOL-X-Assistant/blob/master/README.md">README.md</a>.</p>
+<h2>In this article, I will illustrate one interesting way of getting champion name which users are selecting.</h2>
 <p>It's common sense that the champion name corresponds to the champion ID, so what we need to do is to find champion id. Searching for champion id is quite easy, as the picture shows:</p>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/1.png">
 <p>Although I have already found the address of champion ID (0x092F1A84), the value stored in this address will become useless if I restart the program. And when I was learning assembly language on my own, I knew that every data correspond to a <a href="https://whatis.techtarget.com/definition/base-address">base address</a>. So we can use this formula to get champion ID after restarting: BASEADDRESS + OFFSET = CHAMPIONID's ADDRESS.</p>
