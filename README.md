@@ -12,7 +12,7 @@
   <li>(Comming Soon)Send Champion Win Rate To Your Teammate</li>
   <li>(Comming Soon)Get Your Teammate Champion Win Rate</li>
   <li>(Comming Soon)In-game Timing</li>
-  <li>(Considering)Send Your Position Automatically In Blind Pick</li>
+  <li>(Considering)Send Your Position To Teammate Automatically In Blind Pick</li>
 </ul>
 
 
