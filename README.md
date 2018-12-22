@@ -16,9 +16,9 @@
   <li>(Comming Soon)Send Champion Win Rate To Your Teammate</li>
   <li>(Comming Soon)Get Your Teammate Champion Win Rate</li>
   <li>(Comming Soon)In-game Timing</li>
-  <li>(Considering)Send Your Position To Teammate Automatically In Blind Pick</li>
+  <li>(Considering)<b>*</b>Send Your Position To Teammate Automatically In Blind Pick</li>
 </ul>
-
+<p><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp*May Destroy Teammate's Gaming Experience</b></p>
 
 
 <p>This program is to make your league of legends experience more comfortable, and is <a href="https://www.reddit.com/r/leagueoflegends/comments/7q6xku/runesreformed_set_your_runes_automatically/dsnjm0z/">allowed by RIOT</a>.</p>
