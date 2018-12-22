@@ -8,16 +8,17 @@
 <p>At first, I tried to find the base address, but I failed. So after several days trying and failing, I used detouring to get champion ID successfully.</p>
 <p>Every time I change the champion, the value of champion ID will change:</p>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/2.gif">
-<p>And the assembly instruction might be MOV [DESTINATION],[VALUE], I thought. At first, I wanted to get the DESTINATION, which might be the address of champion ID, so I checked the assembly instruction which controls champion ID:</p>
+<p>And the assembly instruction might be MOV [DESTINATION],[VALUE], I guessed. At first, I wanted to get the DESTINATION, which might be the address of champion ID, so I checked the assembly instruction which controls champion ID:</p>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/3.png">
-<p>Now, it clearly shows that [EDI(0x092F15F8)+48C] is the address we want, so let's check:</p>
+<p>Right, the instruction is MOV [EDI+48C],EAX. Now, it clearly shows that [EDI(0x092F15F8)+48C] is the address we want, so let's check:</p>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/4.png">
-<p>So if we can get the value of EDI, we can get our address. But suddenly, I found that we only need to get the value of EAX, we can also get what we want. So let's check:</p>
+<p>The address is exactly what we want! So if we can get the value of EDI, we can get our address. But suddenly, I found that we only need to get the value of EAX, we can also get what we want, because after this instruction, [EDI+48C] equals to EAX. So let's check:</p>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/5.png">
-<p>Converting to decimal, EAX is what we want. Now, we need to hook this line(MOV [EDI+0x48C],[EAX]), making it to run our codes. However, there is only 6 bytes for us to use, because we cannot affect other codes:</p>
+<p>Converting to decimal, EAX is what we want. If we can create a variable, and then get the address of our variable, and execute "MOV [OUR VARIABLE ADDRESS],EAX", we can get the value of EAX. So we need to hook (change) this line(MOV [EDI+0x48C],[EAX]), making it to run our codes. However, if we want to keep the program stable, we cannot change any other instructions. That is to say, we can only change 6 bytes, which is impossible for us to execute "MOV [OUR VARIABLE ADDRESS],EAX" while executing "MOV [EDI+0x48C],[EAX]":</p>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/6.png">
 <p>So what we are going to do is to hook and detour:</p>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/7.png">
+<p>If we change MOV [EDI+0x48C],[EAX] to JMP [OUR ADDRESS], we will get more space to run our code. After running our code, we should jump back to continue the program. <br>For instance, when you are in PE class, there is no space for you to play basketball in your classroom, so your teacher told you to go to basketball court. Just like what JMP instruction does. After playing basketball, your teacher told you to go back to your classroom to continue your school day (jump back to continue the program). </p>
 <p>Source Code:  <a href="https://whatis.techtarget.com/definition/base-address">dllmain.cpp</a>. If you inject the dll into the program, the assembly instructions is going to be like this:</p>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/11.png">
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/8.png">
