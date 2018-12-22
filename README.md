@@ -13,7 +13,7 @@
 <li>Double click "LOL X Assistant.exe"</li>
 </ul>
 
-<h2>Futures</h2>
+<h2>Features</h2>
 <ul>
   <li>Champion Information Displayed</li>
   <li>Spell Information Displayed</li>
