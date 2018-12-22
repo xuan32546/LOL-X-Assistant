@@ -1,6 +1,25 @@
+<h1>LOL-X-Assistant</h1>
+<p>Your personal assistant for League of Legends!</p>
+<p>Before game start, you don't need to search runes for your champion on the internet anymore; you don't need to click runes icon one by one anymore. The only thing you need to do is run this program, and click once. All the thing you need will be set automatically</p>
 
-<h2>This program is to make your league of legends experience more comfortable, and is <a href="https://www.reddit.com/r/leagueoflegends/comments/7q6xku/runesreformed_set_your_runes_automatically/dsnjm0z/">currently allowed by RIOT</a>.</h2>
+<h2>Futures</h2>
+<ul>
+  <li>Champion Information Displayed</li>
+  <li>Spell Information Displayed</li>
+  <li>Get Runes For Your Champion Automatically</li>
+  <li>Set Runes In One Second For Your Champion</li>
+  <li>(Comming Soon)Runes Win Rate Display</li>
+  <li>(Comming Soon)Send Champion Win Rate To Your Teammate</li>
+  <li>(Comming Soon)Get Your Teammate Champion Win Rate</li>
+  <li>(Comming Soon)In-game Timing</li>
+  <li>(Considering)Send Your Position Automatically In Blind Pick</li>
+</ul>
 
+
+<p>This program is to make your league of legends experience more comfortable, and is <a href="https://www.reddit.com/r/leagueoflegends/comments/7q6xku/runesreformed_set_your_runes_automatically/dsnjm0z/">allowed by RIOT</a>.</p>
+
+<br>
+<br>
 <h3>In this article, I will illustrate one interesting way of getting champion name which users are selecting, which is not widely used by others.</h3>
 <p>It's common sense that the champion name corresponds to the champion ID, so what we need to do is to find champion id. Searching for champion id is quite easy, as the picture shows:</p>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/1.png">
