@@ -1,6 +1,10 @@
 <h1>LOL-X-Assistant</h1>
 <p>Your personal assistant for League of Legends!</p>
 <p>Before game start, you don't need to search runes for your champion on the internet anymore; you don't need to click runes icon one by one anymore. The only thing you need to do is run this program, and click once. All the thing you need will be set automatically</p>
+<p>To those who are interesting in assembly language, here is <a href="https://github.com/xuan32546/LOL-X-Assistant/blob/master/RECORDER.md"> one unique way of getting champion id in league of legends</a>.</p>
+
+<h2>Demo Gif</h2>
+<img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/13.gif">
 
 <h2>Futures</h2>
 <ul>
@@ -16,7 +20,9 @@
 </ul>
 
 
+
 <p>This program is to make your league of legends experience more comfortable, and is <a href="https://www.reddit.com/r/leagueoflegends/comments/7q6xku/runesreformed_set_your_runes_automatically/dsnjm0z/">allowed by RIOT</a>.</p>
+
 
 <h2>Diagrammatic Sketch (program flow chart is much more complicated)</h2>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/12.png">
