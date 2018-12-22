@@ -24,7 +24,7 @@
 <p>This program is to make your league of legends experience more comfortable, and is <a href="https://www.reddit.com/r/leagueoflegends/comments/7q6xku/runesreformed_set_your_runes_automatically/dsnjm0z/">allowed by RIOT</a>.</p>
 
 
-<h2>Diagrammatic Sketch (program flow chart is much more complicated)</h2>
+<h2>Diagrammatic Sketch (program is much more complicated)</h2>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/12.png">
 
 <h2>Thanks</h2>
