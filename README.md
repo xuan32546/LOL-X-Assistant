@@ -8,7 +8,7 @@
 
 <h2>How To Use</h2>
 <ul>
-<li>Click <a href="https://github.com/xuan32546/LOL-X-Assistant/releases/download/0.0.1-1/LOL.X.Assistant.rar">here </a>to download zip file</li>
+<li>Click <a href="https://www.github.com/xuan32546/LOL-X-Assistant/releases/download/0.0.4-0/LOL.X.Assistant.rar">here </a>to download zip file</li>
 <li>Extract zip to your folder</li>
 <li>Double click "LOL X Assistant.exe"</li>
 </ul>
