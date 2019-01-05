@@ -3,6 +3,7 @@
 <p>Before game start, the only thing you need to do is to run this program! All the thing you need will be set in one second. You can focus on your champion choose from now on!</p>
 <p><strong>To those who are interesting in assembly language, here is <a href="https://github.com/xuan32546/LOL-X-Assistant/blob/master/RECORDER.md"> one unique way of getting champion id in league of legends</a>.</strong></p>
 
+<p>A simple website: <a href="http://www.lolxassistant.com></a>www.lolxassistant.com</p>
 <h2>Demo Gif</h2>
 <img src="https://github.com/xuan32546/LOL-X-Assistant/blob/master/pics/13.gif">
 
